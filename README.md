@@ -1,11 +1,11 @@
 # Formative Assignment 1 – Principal Component Analysis (PCA)
 
-## Course: Advanced Linear Algebra
 
-This project implements **Principal Component Analysis (PCA) from scratch**, focusing on eigenvalues, eigenvectors, covariance, and explained variance. The goal is to reduce dimensionality while preserving as much variance as possible.
+This project implements **Principal Component Analysis (PCA)**, focusing on eigenvalues, eigenvectors, covariance, and explained variance. The goal is to reduce dimensionality while preserving as much variance as possible.
 
-The dataset used is Africanized (malaria-related), contains **missing values**, and includes **non-numeric columns**, which are handled appropriately before applying PCA.
+The dataset used in this project is an Africanized malaria-related dataset containing epidemiological and socio-economic indicators across multiple regions. It consists of **more than 10 features**, including both **numeric and non-numeric variables**, and originally contained **missing (NaN) values**.
 
+Non-numeric columns (such as categorical identifiers) were excluded prior to PCA, while missing values in numeric features were handled using **mean imputation**. This preprocessing ensured compatibility with linear algebra operations while preserving the statistical properties of the data.
 ---
 
 ## Project Structure
