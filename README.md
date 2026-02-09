@@ -6,7 +6,6 @@ This project implements **Principal Component Analysis (PCA)**, focusing on eige
 The dataset used in this project is an Africanized malaria-related dataset containing epidemiological and socio-economic indicators across multiple regions. It consists of **more than 10 features**, including both **numeric and non-numeric variables**, and originally contained **missing (NaN) values**.
 
 Non-numeric columns (such as categorical identifiers) were excluded prior to PCA, while missing values in numeric features were handled using **mean imputation**. This preprocessing ensured compatibility with linear algebra operations while preserving the statistical properties of the data.
----
 
 ## Project Structure
 
