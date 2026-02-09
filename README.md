@@ -24,7 +24,7 @@ Install dependencies using:
 pip install numpy pandas matplotlib
 ```
 
-##Methodology
+## Methodology
 
 - Load the dataset and identify numeric and non-numeric columns.
 
